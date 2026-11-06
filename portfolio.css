@@ -5,6 +5,22 @@
 
 }
 
+@media (max-width: 600px) {
+
+    .services-container {
+        grid-template-columns: 1fr;
+    }
+
+    .navbar {
+        flex-wrap: wrap;
+    }
+
+    #about h2 {
+        font-size: 28px;
+    }
+
+}
+
 nav>ul {
     display: flex;
 }
