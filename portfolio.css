@@ -1,0 +1,278 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav>ul>li {
+    margin: 10px;
+    list-style: none;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: #f8f8f8;
+}
+
+nav>ul>li>a:hover {
+    color:#00cfff;
+}
+
+.logo{
+    color:#f8f8f8;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #00cfff;
+    height: 50px;
+    padding: 40px;
+    background-color: #00050b;
+    
+}
+
+
+.welcome{
+    text-align: center;
+    padding: 50px;
+    font-size: 60px;
+    color: #00cfff;
+    background-color:#071b33;
+    font-style:italic;
+    
+}
+
+.about-title{
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 30px;
+    color: #00cfff;
+}
+
+.about{
+    color: #bec2c7;
+    display: flex;
+    box-sizing: border-box;
+    min-height: 40vh;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+
+}
+.about1{
+    background-image:linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+    ),url("images/background.1.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #071b33;
+}
+
+h2{
+    text-align: left;
+    color: #00cfff;
+    font-size: 30px;
+    padding: 20px;
+    font-style: italic;
+    
+}
+
+h2:hover{
+    color: #bec2c7;
+}
+
+
+section{
+    text-align: center;
+    padding: 20px;
+}
+
+#services{
+    background-color: #010914;
+    min-height: 80vh;
+    padding:50px20px;
+
+}
+
+.service-box {
+
+    border: 1px solid #00cfff;
+    margin: 10px;
+    border-radius: 10px;
+    padding:50px;
+    box-shadow: #00cfff;
+    background-color: ;
+
+}
+
+.service-box:hover{
+    transform: translateY(-8px);
+    background-color:#071b33;
+}
+
+.service-box >h3{
+    color:#00cfff;
+    padding: 10px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.service-box >p{
+    color: #bec2c7;
+    padding: 5px;
+}
+
+.service-box >button{
+    color: #00cfff;
+    padding: 10px;
+    font-style: oblique;
+    background-color: black;
+}
+button:hover{
+    background-color: #071b33;
+    transform: translateX(-4px);
+}
+
+.service-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+
+
+}
+
+#projects{
+    background-color:#071b33;
+    min-height: 80vh;
+    padding:50px20px;
+}
+
+
+.project-box {
+
+    border: 1px solid #00cfff;
+    margin: 10px;
+    border-radius: 10px;
+    padding:50px;
+    box-shadow:#071b33;
+    background-color:#010914;
+}
+
+.project-box:hover{
+    transform: translateY(-8px);
+    background-color:#071b33;
+}
+.project-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.project-box >h3{
+    color:#00cfff;
+    padding: 10px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.project:hover{
+    color:#bec2c7;
+}
+
+.project-box >p{
+    color:#bec2c7;
+    padding: 5px;
+}
+
+.project-box >button{
+    color: #00cfff;
+    padding: 10px;
+    font-style: oblique;
+    background-color: black;
+}
+ 
+#testimonials{
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
+    background-color:#010914;
+    min-height: 10vh;
+    padding:50px20px;
+}
+
+.profile{
+    text-align: left;
+}
+
+.stars{
+    text-align: left;
+
+}
+
+.review{
+    text-align: left;
+    color: #bec2c7;
+}
+
+.name{
+    text-align: left;
+    color:#bec2c7;
+}
+
+.test{
+    text-align: left;
+    color:#00cfff;
+
+}
+
+.testimonial{
+    border: 1px solid #00cfff;
+    margin: 10px;
+    border-radius: 10px;
+    padding:50px;
+    box-shadow:#071b33;
+    background-color:#010914;
+}
+
+.contact-details a {
+    color:#00cfff;
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    color: #00d4ff;
+}
+
+.contact{
+    background-color: #071b33;
+}
+
+footer {
+    background-color: #071426;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #00d4ff;
+}
+
+footer p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.cc{
+    background-color: #010914;
+}
+.cc:hover{
+    color:#bec2c7;
+}
